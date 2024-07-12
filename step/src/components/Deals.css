@@ -1,0 +1,199 @@
+/* Add these styles to your existing KrishnaShoppingMall.css file */
+
+.deals-page {
+    background-color: var(--light-bg);
+  }
+  
+  .deals-content {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .deals-content h2 {
+    color: var(--primary-color);
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .deals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .deal-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .deal-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .deal-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .deal-info {
+    padding: 20px;
+  }
+  
+  .deal-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+  
+  .deal-discount {
+    font-size: 1.2em;
+    color: var(--accent-color);
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .deal-category {
+    color: var(--text-color);
+    margin-bottom: 5px;
+  }
+  
+  .deal-expiry {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .shop-now-btn {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .newsletter-signup {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .newsletter-signup h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .newsletter-signup p {
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .newsletter-form input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .subscribe-btn {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: var(--accent-color);
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .deals-grid {
+      grid-template-columns: 1fr;
+    }
+  
+.newsletter-form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+.newsletter-form input {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .newsletter-signup {
+    background-color: #f9f9f9; /* Light grey background */
+    border: 1px solid #ccc;    /* Light grey border */
+    padding: 20px;             /* Padding around the content */
+    width: 300px;              /* Width of the form */
+    margin: 0 auto;            /* Center align the form */
+    border-radius: 10px;       /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .newsletter-signup h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;               /* Dark grey text */
+  }
+  
+  .newsletter-signup input[type="email"] {
+    width: calc(100% - 20px);  /* Full width minus padding */
+    padding: 10px;
+    border: 1px solid #ccc;    /* Light grey border */
+    border-radius: 5px;        /* Rounded corners */
+    margin-bottom: 15px;       /* Space between input and button */
+    box-sizing: border-box;    /* Include padding and border in element's total width and height */
+  }
+  
+  .newsletter-signup input[type="submit"] {
+    background-color: #007bff; /* Blue background */
+    color: white;              /* White text */
+    padding: 10px 15px;
+    border: none;              /* No border */
+    border-radius: 5px;        /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    width: 100%;               /* Full width */
+    box-sizing: border-box;    /* Include padding and border in element's total width and height */
+  }
+  
+  .newsletter-signup input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .newsletter-signup p {
+    font-size: 14px;
+    color: blue;               /* Grey text */
+    margin-top: 15px;          /* Space above the paragraph */
+  }
+  .subscribe-btn{
+    background-color: #007bff; /* Blue background */
+  }
+  h3{
+    color: aqua;
+  }

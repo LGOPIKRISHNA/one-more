@@ -1,0 +1,138 @@
+/* Add these styles to your existing KrishnaShoppingMall.css file */
+
+.contact-us {
+    background-color: var(--light-bg);
+  }
+  
+  .contact-content {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-content h2 {
+    color: var(--primary-color);
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .contact-info, .contact-form {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info h3, .contact-form h3 {
+    color: var(--primary-color);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-details {
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .contact-item i {
+    color: var(--secondary-color);
+    margin-right: 10px;
+    font-size: 1.2em;
+  }
+  
+  .business-hours {
+    margin-top: 30px;
+  }
+  
+  .business-hours h4 {
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--text-color);
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+  }
+  
+  .submit-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-info, .contact-form {
+      width: 100%;
+    }
+  }
+  .submit-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+  }
+  
+  .submit-btn:active {
+    transform: translateY(0);
+  }
+  .quick-links li{
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .quick-links:hover ul li{
+    color:blue;
+  }
